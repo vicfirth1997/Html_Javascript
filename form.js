@@ -41,7 +41,6 @@ const nameField=document.getElementById("name");
   }
 
   const submitButton=document.getElementById("submit");
-  //console.log(submitButton);
   if(submitButton) {
     submitButton.addEventListener("click",()=>{
         const mandatoryIds=["name","email","password"];
